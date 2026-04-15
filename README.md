@@ -2,6 +2,8 @@
 
 This micro-service provides a paginated view of our DCAT catalog (using [Hydra](https://www.w3.org/community/hydra/wiki/Pagination)).
 
+- TODO through sparql-parser
+
 # mu semtech microservice
 
 This folder defines [web.py](./web.py), the main entrypoint for a mu-microservice based on the [python template](https://github.com/mu-semtech/mu-python-template).

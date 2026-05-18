@@ -2,8 +2,6 @@
 
 This micro-service provides a paginated view of our DCAT catalog (using [Hydra](https://www.w3.org/community/hydra/wiki/Pagination)).
 
-- TODO through sparql-parser
-
 # mu semtech microservice
 
 This folder defines [web.py](./web.py), the main entrypoint for a mu-microservice based on the [python template](https://github.com/mu-semtech/mu-python-template).
@@ -47,6 +45,10 @@ curl -H "Accept: application/ld+json" "enpoint?modified_since=2024-01-01T00:00:0
 
 curl -H "Accept: application/rdf+xml" "enpoint?modified_since=2024-01-01T00:00:00"
 ```
+
+# dcterms:conformsTo
+
+also appends shapes for entities that are annotated with dcterms:conformsTo
 
 # Detailed Example 
 
